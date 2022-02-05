@@ -90,4 +90,6 @@ int main()
 
     cout << COLOR.NORMAL;
     cout << " ]\n";
+
+    return 0;
 }

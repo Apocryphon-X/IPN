@@ -89,4 +89,6 @@ int main()
     cout << easy_colors::bg_rgb(234, 67, 53)  << 'e';
     cout << easy_colors::normal;
     cout << " ]\n";
+
+    return 0;
 }
