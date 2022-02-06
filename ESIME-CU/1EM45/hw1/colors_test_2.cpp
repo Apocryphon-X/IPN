@@ -26,7 +26,7 @@ int main()
     cout << easy_colors::fg_rgb(66, 133, 244) << 'g';
     cout << easy_colors::fg_rgb(52, 168, 83)  << 'l';
     cout << easy_colors::fg_rgb(234, 67, 53)  << 'e';
-    cout << easy_colors::normal << "\n";
+    cout << easy_colors::normal << '\n';
 
     cin.get();
     return 0;
