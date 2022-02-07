@@ -22,5 +22,8 @@ int main()
             cout << ' ';
     }
 
+    cout << endl;
+    cout << "Press ENTER to continue.";
+    cin.get();
     return 0;
 }

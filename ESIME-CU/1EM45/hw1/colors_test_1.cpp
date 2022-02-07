@@ -28,5 +28,7 @@ int main()
     cout << COLOR.FG_RGB(234, 67, 53)  << 'e';
     cout << COLOR.NORMAL << '\n';
 
+    cout << "Press ENTER to continue.";
+    cin.get();
     return 0;
 }

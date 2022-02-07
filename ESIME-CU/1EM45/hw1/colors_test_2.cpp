@@ -28,6 +28,7 @@ int main()
     cout << easy_colors::fg_rgb(234, 67, 53)  << 'e';
     cout << easy_colors::normal << '\n';
 
+    cout << "Press ENTER to continue.";
     cin.get();
     return 0;
 }
