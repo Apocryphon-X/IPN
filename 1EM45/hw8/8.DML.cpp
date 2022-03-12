@@ -18,18 +18,18 @@
 using easy_colors::fg_rgb;
 using easy_colors::normal;
 
-int tabla;
 
 int main()
 {
     std::system(""); // Hack to enable VT Mode on Windows CMD via 'cmd.exe /c ...'
 
+    int tabla;
     std::cout << "> Ingrese la tabla de multiplicar que desea calcular: ";
-	std::cin >> tabla;
+    std::cin >> tabla;
     std::cin.ignore();
 
-	for(int c = 1 ; c <= 10; c++)
-	{
+    for(int c = 1 ; c <= 10; c++)
+    {
         std::cout << tabla << " * " << c << "\t= ";
         int resultado = tabla * c;
 
