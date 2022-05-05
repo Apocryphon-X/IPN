@@ -42,6 +42,15 @@ namespace easy_colors
     const std::string bg_b_white   = "\x1b[107m";
 
     const std::string normal = "\x1b[0m";
+    
+    const std::string bold      = "\x1b[1m";
+    const std::string dim       = "\x1b[2m";
+    const std::string italic    = "\x1b[3m";
+    const std::string underline = "\x1b[4m";
+    const std::string blink     = "\x1b[5m";
+    const std::string reverse   = "\x1b[7m";
+    const std::string conceal   = "\x1b[8m";
+    const std::string strike    = "\x1b[9m";
 
     std::string fg_rgb(short r, short g, short b)
     {
