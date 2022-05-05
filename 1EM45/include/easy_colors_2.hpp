@@ -3,7 +3,7 @@
 
 #include <string>
 
-namespace easy_colors
+namespace ec
 {
     const std::string black   = "\x1b[30m";
     const std::string red     = "\x1b[31m";
