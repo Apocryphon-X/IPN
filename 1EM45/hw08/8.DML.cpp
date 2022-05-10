@@ -10,17 +10,17 @@
  *   - https://bugs.python.org/msg291732
 **/
 
-#include "../include/easy_colors_2.hpp"
+#include "../include/t-manip.hpp"
 #include <cstdlib>
 #include <iostream>
 #include <string>
 
-using easy_colors::fg_rgb;
-using easy_colors::normal;
-
 
 int main()
 {
+    using t_fmt::truecolor::rgb;
+    using t_fmt::reset;
+
     std::system(""); // Hack to enable VT Mode on Windows CMD via 'cmd.exe /c ...'
 
     int tabla;
@@ -33,8 +33,8 @@ int main()
         std::cout << tabla << " * " << c << "\t= ";
         int resultado = tabla * c;
 
-        std::cout << fg_rgb(0, 150 + (c * 10), 150 + (c * 10)) << resultado
-                  << normal << '\n';
+        std::cout << rgb(0, 150 + (c * 10), 150 + (c * 10)) << resultado
+                  << reset << '\n';
     }
 
     std::cout << "Press ENTER to continue.";

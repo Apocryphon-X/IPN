@@ -2,6 +2,7 @@
 #include <iostream>
 #include <utility>
 
+// C++17:
 #define show(logic, name)                                      \
     std::cout << #name << '\n';                                \
     for (const auto &[x, y] : values)                          \
